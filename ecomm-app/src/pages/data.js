@@ -1,0 +1,53 @@
+const data = {
+    products: [
+        {
+        name: "Nike Sportswear Phoenix Fleece",
+        slug: "Women's Oversize Crew Neck Sweatshirt",
+        category: "Sweatshirt",
+        image: "https://i.ibb.co/nryP9sM/sportswear-phoenix-fleece-over-oversized-crew-neck-sweatshirt-g-Gz-PT0.jpg", // 679px × 829px
+        price: "RM 120",
+        countInStock: 10,
+        brand: "Nike",
+        // rating: 4.5,
+        // numReviews: 10,
+        // description: "high quality shirt",
+        },
+        {
+        name: "Nike Sportswear",
+        slug: "Men's French Terry Pullover Hoodie",
+        category: "Hoodie",
+        image: "https://i.ibb.co/4MgpDr3/sportswear-french-terry-pullover-hoodie-3s-Jg7-R.png",
+        price: "RM 335",
+        countInStock: 20,
+        brand: "Nike",
+        // rating: 4.0,
+        // numReviews: 10,
+        // description: "high quality product",
+        },
+        {
+        name: "NikeCourt Dri-FIT Advantage",
+        slug: "Men's Tennis Shorts",
+        category: "Shorts",
+        image: "https://i.ibb.co/d4smJsH/nikecourt-dri-fit-advantage-18cm-tennis-shorts-mv-LJw-R.jpg",
+        price: "RM 195",
+        countInStock: 15,
+        brand: "Nike",
+        // rating: 4.5,
+        // numReviews: 14,
+        // description: "high quality product",
+        },
+        {
+        name: "Nike Dri-FIT DYE",
+        slug: "Men's Training Track",
+        category: "Pants",
+        image: "https://i.ibb.co/YypLjJ1/dri-fit-dye-training-tank-d-XPMs-F.jpg",
+        price: "RM 99",
+        countInStock: 5,
+        brand: "Nike",
+        // rating: 4.5,
+        // numReviews: 10,
+        // description: "high quality product",
+        },
+    ],
+};
+export default data;
