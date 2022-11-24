@@ -14,7 +14,7 @@ const Navbar = () => {
       label: "Product",
       icon: "pi pi-fw pi-shopping-bag",
       // url: "/product",
-      url: "/product2",
+      url: "/products",
     },
     {
       label: "Contact",

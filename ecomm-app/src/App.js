@@ -10,9 +10,19 @@ import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Setting from "./pages/Setting";
 import Cart from "./pages/Cart";
-import DataTableTemplatingDemo from "./pages/Product";
+// import DataTableTemplatingDemo from "./pages/Product";
+import Products from "./pages/Products";
 
+
+
+
+/*-------------------------------------Import pages for eac categories products-------------------------*/
 import Product2 from "./pages/Product2";
+
+
+
+
+
 
 /*------------------------------------Navigate them in routes--------------------------------------------*/
 function App() {
@@ -23,13 +33,14 @@ function App() {
         <div className="content">
           <Routes>
             <Route path="/" element={<Home />}/>
-            <Route path="/product" element={<DataTableTemplatingDemo />}/>
+            {/* <Route path="/product" element={<DataTableTemplatingDemo />}/> */}
+            <Route path="/products" element={<Products />}/>
             <Route path="/contact" element={<Contact />}/>
             <Route path="/usersettings" element={<Setting />}/>
             <Route path="/cart" element={<Cart />}/>
 
 
-            <Route path="/product/:category" element={<Product2/>}/>
+            <Route path="/products/:category" element={<Product2/>}/>
           </Routes>
         </div>
       </div>
